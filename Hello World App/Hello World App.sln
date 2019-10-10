@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTC_FCOE_SWFT", "UTC_FCOE_SWFT_ARMSBatching\UTC_FCOE_SWFT.csproj", "{D4D69711-CCB6-4AC9-9831-87E1E844CB92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{CEB6BCF9-1E4A-454A-9A92-E8F4D5CFC3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{B1FFF8D0-3B85-4278-BDA4-EA8DFF0C16C4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1995ADE2-EB49-4AFE-8569-2122CB96068A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4D69711-CCB6-4AC9-9831-87E1E844CB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D69711-CCB6-4AC9-9831-87E1E844CB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D69711-CCB6-4AC9-9831-87E1E844CB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FFF8D0-3B85-4278-BDA4-EA8DFF0C16C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FFF8D0-3B85-4278-BDA4-EA8DFF0C16C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FFF8D0-3B85-4278-BDA4-EA8DFF0C16C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FFF8D0-3B85-4278-BDA4-EA8DFF0C16C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1995ADE2-EB49-4AFE-8569-2122CB96068A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1995ADE2-EB49-4AFE-8569-2122CB96068A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1995ADE2-EB49-4AFE-8569-2122CB96068A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1995ADE2-EB49-4AFE-8569-2122CB96068A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1FFF8D0-3B85-4278-BDA4-EA8DFF0C16C4} = {CEB6BCF9-1E4A-454A-9A92-E8F4D5CFC3BB}
+		{1995ADE2-EB49-4AFE-8569-2122CB96068A} = {CEB6BCF9-1E4A-454A-9A92-E8F4D5CFC3BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78A85556-F346-47AC-815E-9A88E454FBC2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://itworxdevops.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UTC_FCOE_SWFT_ARMSBatching\\UTC_FCOE_SWFT.csproj
+		SccProjectName1 = UTC_FCOE_SWFT_ARMSBatching
+		SccLocalPath1 = UTC_FCOE_SWFT_ARMSBatching
+		SccProjectUniqueName2 = WebApplication1\\WebApplication1.csproj
+		SccProjectTopLevelParentUniqueName2 = UTC_FCOE_SWFT_AutoInstallers.sln
+		SccProjectName2 = WebApplication1
+		SccLocalPath2 = WebApplication1
+	EndGlobalSection
+EndGlobal
