@@ -3,7 +3,6 @@
 #microsoft/aspnet:4.7.2-windowsservercore-1803
 FROM microsoft/aspnet:4.7.2
 ARG source
-RUN dotnet publish -c Release -o /publish
 WORKDIR /inetpub/wwwroot
-COPY ./publish .
+COPY ${source:-obj/Docker/publish} .
 
