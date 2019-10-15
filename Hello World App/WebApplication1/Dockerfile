@@ -4,6 +4,6 @@
 FROM microsoft/aspnet:4.7.2
 ARG source
 WORKDIR /inetpub/wwwroot
-COPY ${source:-WebApplication1/bin/Release/Publish} .
+COPY ${source:-obj/Docker/Publish} .
 #./publish .
 
