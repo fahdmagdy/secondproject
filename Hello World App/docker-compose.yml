@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}webapplication1
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: webapplication1\Dockerfile
