@@ -1,0 +1,13 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  webapplication1:
+    build:
+      context: D:\GitHub\secondproject\Hello World App\WebApplication1
+      dockerfile: WebApplication1\Dockerfile
+    image: webapplication1
+    ports:
+    - target: 80
+version: '3.4'

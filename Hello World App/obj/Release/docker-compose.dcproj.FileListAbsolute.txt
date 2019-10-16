@@ -1,3 +1,4 @@
+D:\GitHub\secondproject\Hello World App\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache
 D:\GitHub\secondproject\Hello World App\bin\Release\WebApplication1.dll
 D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.Optimization.dll
 D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.Mvc.dll
@@ -14,6 +15,4 @@ D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.WebPages.xml
 D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.WebPages.Razor.xml
 D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.Razor.xml
 D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.WebPages.Deployment.xml
-D:\GitHub\secondproject\Hello World App\obj\Release\docker-compose.dcprojAssemblyReference.cache
-D:\GitHub\secondproject\Hello World App\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache
 D:\GitHub\secondproject\Hello World App\obj\Release\docker-compose.dcproj.CopyComplete

@@ -118,6 +118,8 @@ D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\WebApplicati
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\WebApplication1.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\WebApplication1.pdb
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\WebApplication1.csprojAssemblyReference.cache
+D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\WebApplication1.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\WebApplication1.pdb
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\Content\bootstrap-theme.css
@@ -177,11 +179,9 @@ D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\Pack
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\csi.exe
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\csi.rsp
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CSharp.Core.targets
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\GitHub\secondproject\Hello World App\WebApplication1\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
