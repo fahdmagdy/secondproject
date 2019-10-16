@@ -5,8 +5,8 @@ networks:
 services:
   webapplication1:
     build:
-      context: D:\GitHub\secondproject\Hello World App
-      dockerfile: WebApplication1\Dockerfile
+      context: D:\GitHub\secondproject\Hello World App\WebApplication1
+      dockerfile: Dockerfile
     image: webapplication1
     ports:
     - target: 80

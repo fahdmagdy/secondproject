@@ -16,3 +16,4 @@ D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.WebPages.Razor.xm
 D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.Razor.xml
 D:\GitHub\secondproject\Hello World App\bin\Release\System.Web.WebPages.Deployment.xml
 D:\GitHub\secondproject\Hello World App\obj\Release\docker-compose.dcproj.CopyComplete
+D:\GitHub\secondproject\Hello World App\obj\Release\docker-compose.dcprojAssemblyReference.cache
