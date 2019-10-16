@@ -6,7 +6,7 @@ services:
   webapplication1:
     build:
       context: D:\GitHub\secondproject\Hello World App
-      dockerfile: Dockerfile
+      dockerfile: WebApplication1\Dockerfile
     image: webapplication1
     ports:
     - target: 80
