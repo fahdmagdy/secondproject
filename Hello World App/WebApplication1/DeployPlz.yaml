@@ -25,7 +25,7 @@ spec:
                       protocol: TCP   				  
             nodeSelector:
                   kubernetes.io/os: windows
----
+
 # $(appName)/service.yaml
 apiVersion: v1
 kind: Service
@@ -42,7 +42,7 @@ spec:
           name: http
     selector:
         app: $(appName)
----
+
 # $(appName)/ingress.yaml
 apiVersion: extensions/v1beta1
 kind: Ingress
