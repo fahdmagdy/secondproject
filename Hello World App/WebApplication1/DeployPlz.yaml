@@ -60,4 +60,4 @@ spec:
             - path: /
               backend:
                 serviceName: $(appName)
-                servicePort: 8080' | Set-Content $(Agent.TempDirectory)/manifest.yaml
+                servicePort: 8080'
