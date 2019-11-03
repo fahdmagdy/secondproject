@@ -42,7 +42,7 @@ spec:
           name: http
     selector:
         app: $(appName)
-
+---
 # $(appName)/ingress.yaml
 apiVersion: extensions/v1beta1
 kind: Ingress
