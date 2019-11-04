@@ -17,7 +17,7 @@ spec:
         spec:
             containers:
                 - name: kubernetesversion5973b
-                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:176
+                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:$(Build.BuildId)
                   imagePullPolicy: 
                   ports:
                     - name: http
