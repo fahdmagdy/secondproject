@@ -17,8 +17,9 @@ spec:
         spec:
             containers:
                 - name: kubernetesversion5973b
-                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:183
+                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:184
                   #command: ["/bin/sh", "-ec", "while:; do echo '.';sleep 5 ; done"]
+                  command: ["C:\\ServiceMonitor.exe", "w3svc"]
                   imagePullPolicy: 
                   ports:
                     - name: http
