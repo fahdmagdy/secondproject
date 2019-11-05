@@ -6,5 +6,6 @@ FROM microsoft/dotnet:2.1-sdk-nanoserver-1809
 ARG source
 WORKDIR /inetpub/wwwroot
 COPY ${source:-obj/Docker/Publish} .
+CMD ["C:\\ServiceMonitor.exe", "w3svc"]
 #./publish .
 
