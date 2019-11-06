@@ -2,7 +2,8 @@
 #For more information, please see http://aka.ms/containercompat 
 
 #FROM microsoft/iis/dotnet:2.1-sdk-nanoserver-1809
-FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
+#FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
+FROM mcr.microsoft.com/dotnet/framework/samples:aspnetapp
 ARG source
 WORKDIR /inetpub/wwwroot
 COPY ${source:-obj/Docker/Publish} .
