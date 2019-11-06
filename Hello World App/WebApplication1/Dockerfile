@@ -4,7 +4,9 @@
 #FROM microsoft/iis/dotnet:2.1-sdk-nanoserver-1809
 FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
 ARG source
-COPY ${source:-obj/Docker/Publish} /inetpub/wwwroot
+WORKDIR /inetpub/wwwroot
+COPY ${source:-obj/Docker/Publish} .
+ENTRYPOINT ["tail", "-f", "/dev/null"]
 #CMD ["C:\\ServiceMonitor.exe", "w3svc"]
 #./publish .
 
