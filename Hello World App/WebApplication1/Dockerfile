@@ -2,9 +2,9 @@
 #For more information, please see http://aka.ms/containercompat 
 #FROM microsoft/aspnet:4.7.2-windowsservercore-1803
 FROM microsoft/dotnet:2.1-sdk-nanoserver-1809
-RUN Add-WindowsFeature Web-Server;
-RUN Add-WindowsFeature NET-Framework-45-ASPNET;
-RUN Add-WindowsFeature Web-Asp-Net45;
+RUN powershell "Install-WindowsFeature -Name Web-Server -Verbose"
+RUN powershell "Install-WindowsFeature -Name NET-Framework-45-ASPNET -Verbose"
+#RUN Add-WindowsFeature Web-Asp-Net45;
 ARG source
 #WORKDIR 
 COPY ${source:-obj/Docker/Publish} /inetpub/wwwroot
