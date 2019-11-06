@@ -6,7 +6,7 @@ FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
 ARG source
 WORKDIR /inetpub/wwwroot
 COPY ${source:-obj/Docker/Publish} .
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+CMD ["ping -t localhost"]
 #CMD ["C:\\ServiceMonitor.exe", "w3svc"]
 #./publish .
 
