@@ -1,5 +1,4 @@
-# $(appName)/deployment.yaml
-apiVersion: apps/v1beta1
+'apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
     name: kubernetesversion5973b
@@ -17,7 +16,7 @@ spec:
         spec:
             containers:
                 - name: kubernetesversion5973b
-                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:200
+                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:201
                   #command: ["ping -t localhost"]
                   #command: ["C:\\ServiceMonitor.exe", "w3svc"]
                   imagePullPolicy: 
@@ -27,8 +26,7 @@ spec:
                       protocol: TCP   				  
             nodeSelector:
                   kubernetes.io/os: windows
-
-# $(appName)/service.yaml
+---
 apiVersion: v1
 kind: Service
 metadata:
@@ -44,8 +42,7 @@ spec:
           name: http
     selector:
         app: kubernetesversion5973b
-
-# $(appName)/ingress.yaml
+---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -62,4 +59,4 @@ spec:
             - path: /
               backend:
                 serviceName: kubernetesversion5973b
-                servicePort: 8080
+                servicePort: 8080'
