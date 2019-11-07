@@ -17,7 +17,7 @@ spec:
         spec:
             containers:
                 - name: kubernetesversion5973b
-                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:196
+                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:197
                   #command: ["ping -t localhost"]
                   #command: ["C:\\ServiceMonitor.exe", "w3svc"]
                   imagePullPolicy: 

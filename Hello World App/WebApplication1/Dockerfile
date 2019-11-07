@@ -6,7 +6,7 @@
 FROM mcr.microsoft.com/dotnet/framework/samples:aspnetapp
 ARG source
 WORKDIR /inetpub/wwwroot
-COPY ${source:-obj/Docker/Publish} .
+#COPY ${source:-obj/Docker/Publish} .
 #CMD ["C:\\ServiceMonitor.exe", "w3svc"]
 #./publish .
 
