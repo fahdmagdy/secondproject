@@ -17,7 +17,7 @@ spec:
         spec:
             containers:
                 - name: kubernetesversion5973b
-                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:197
+                  image: mydockertestcontainer.azurecr.io/myakscluster2d14:198
                   #command: ["ping -t localhost"]
                   #command: ["C:\\ServiceMonitor.exe", "w3svc"]
                   imagePullPolicy: 
@@ -44,22 +44,22 @@ spec:
           name: http
     selector:
         app: kubernetesversion5973b
----
+#---
 # $(appName)/ingress.yaml
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-    name: kubernetesversion5973b
-    labels:
-        app: kubernetesversion5973b
-    annotations:
-        kubernetes.io/ingress.class: addon-http-application-routing
-spec:
-    rules:
-        - host: kubernetesversion5973b-kubernetesversion5973b.12035bc0b4c64a4aa1bc.centralus.aksapp.io
-          http:
-            paths:
-            - path: /
-              backend:
-                serviceName: kubernetesversion5973b
-                servicePort: 8080
+#apiVersion: extensions/v1beta1
+#kind: Ingress
+#metadata:
+#    name: kubernetesversion5973b
+#    labels:
+#        app: kubernetesversion5973b
+#    annotations:
+#        kubernetes.io/ingress.class: addon-http-application-routing
+#spec:
+#    rules:
+#        - host: kubernetesversion5973b-kubernetesversion5973b.12035bc0b4c64a4aa1bc.centralus.aksapp.io
+#          http:
+#            paths:
+#            - path: /
+#              backend:
+#                serviceName: kubernetesversion5973b
+#                servicePort: 8080
