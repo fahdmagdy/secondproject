@@ -26,7 +26,6 @@ spec:
                       protocol: TCP   				  
             nodeSelector:
                   kubernetes.io/os: windows
----
 apiVersion: v1
 kind: Service
 metadata:
@@ -42,7 +41,6 @@ spec:
           name: http
     selector:
         app: kubernetesversion5973b
----
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
